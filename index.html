@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Kyle is a new programmer who wants to help people fulfill their project ideas within the scope of cyber security and back-end development.">
+  <link rel="shortcut icon" href="/resources/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/vendors/css/normalize.css">
+  <link rel="stylesheet" href="/vendors/css/grid.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css"> -->
+  <link rel="stylesheet" href="resources/css/queries.css">
+  <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <title>Kyle's Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container-fluid">
+        <div class="row">
+          <img src="/resources/img/logo.png" alt="Kyle Huber logo" class="logo">
+          <ul class="nav-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="https://github.com/Huberdoggy" target="about__blank">Featured Projects</a></li>
+            <li><a href="#contactheader">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6" id="mountain-text-box">
+          <h1><span id="span-info">Hey, my name's</span><span id="span-name"> Kyle.</span></h1>
+          <br>
+          <h2 id="mountain-box-heading">Aspiring penetration tester<br>and back-end developer.</h2>
+          <div class="header-btns">
+            <a class="reachout-btn" href="#contactheader">Let's grab coffee!</a>
+            <a class="reachout-btn" href="https://github.com/Huberdoggy" target="about__blank">My Projects</a>
+          </div>
+        </div>
+        <div class="col-sm-6" id="author-img">
+          <img src="/resources/img/author.jpg" alt="Picture of Kyle.">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="features-skills">
+    <div class="container" id="skills-container">
+      <div class="row">
+        <div class="col-sm-6 box">
+
+          <h3 id="softskillsheading"><i class="ion-android-contacts"></i> Soft Skills</h3>
+          <p class="skill-desc" id="softskills">The lifestyle of a developer is not for everyone. Fortunately, this is
+            where I come in.
+            Much of my background has been complemented with extensive bouts of world traveling,cross-cultural
+            integration, and self-sufficiency. Due to this, I've found the transition into the world of software
+            creation to be a suitable fit for my nomadic tendencies. Aside from those, here's some other traits you can
+            expect to see reflected in
+            our
+            working relationship.</p>
+        </div>
+        <div class="col-sm-6 box">
+          <h3><i class="ion-thumbsup"></i> Adaptability</h3>
+          <p class="skill-desc">I'm able to quickly and efficiently allocate resources for a given problem, and adjust
+            my work-style
+            according to my findings.</p>
+          <br>
+          <h3><i class="ion-thumbsup"></i> Dedication</h3>
+          <p class="skill-desc">From a young age, I embraced the mantra <q><i>you 'own' your work.</i></q> As such, I
+            frequent long hours
+            ensuring
+            that each task I complete is executed to the highest standard possible. </p>
+          <br>
+          <h3><i class="ion-thumbsup"></i> Team-Player</h3>
+          <p class="skill-desc">Although I thrive in solo and remote environments, when coming together as part of a
+            team, I try to keep
+            everybody organized and implement our mutually agreed upon solutions for tackling a challenge.
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <section class="section-form">
+    <div class="row">
+
+      <h2 id="contactheader">Get In Touch</h2>
+    </div>
+    <div class="row">
+      <form method="post" action="contact.php" class="contact-form">
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="name">Name:</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="email">Email:</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="text" name="name" id="email" placeholder="Your email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label>Message:</label>
+          </div>
+          <div class="col span-2-of-3">
+            <textarea rows="5" cols="20" name="message" id="message" placeholder="How can I help?" required></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label></label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="submit" name="submit" id="submit">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row">
+      <div class="col span-1-of-2">
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <!-- <li>About Me</li> -->
+          <!-- <li>Featured Projects</li> -->
+          <li><a href="#contactheader">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li><a href="https://github.com/Huberdoggy" target="about__blank"><i class="ion-social-github"></i> GitHub</a>
+          </li>
+          <li><a href="https://instagram.com/kylehuber92" target="about__blank"><i class="ion-social-instagram"></i>
+              Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <p>
+        &copy; 2020 by Kyle Huber. All rights reserved.
+      </p>
+    </div>
+
+  </footer>
+</body>
+
+</html>

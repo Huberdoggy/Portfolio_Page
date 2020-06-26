@@ -1,0 +1,118 @@
+/*Small phones from 0 to 480px*/
+@media only screen and (max-width: 400px) {}
+
+@media only screen and (max-width: 480px) {
+
+  .features-skills {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(3, 3, 31, 0.8));
+    background-size: cover;
+    background-position: center;
+  }
+
+  #softskills,
+  #softskillsheading {
+    display: none;
+  }
+
+  h3 {
+    padding-top: 80px;
+  }
+
+  #author-img img {
+    display: none;
+  }
+
+  .header-btns {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .box {
+    padding-top: 5rem;
+  }
+
+  #submit {
+    margin-bottom: 20px;
+  }
+
+  .footer-nav {
+    display: inline-grid;
+    margin-top: 15px;
+  }
+
+  .social-links {
+    display: inline-grid;
+    margin-top: -65px;
+  }
+}
+
+
+
+
+/*IPAD..small phones to small tablets from 481 to 767*/
+@media only screen and (max-width: 767px) {
+  .nav-items {
+    margin-right: 44px;
+  }
+
+  #mountain-text-box {
+    margin-top: 40px;
+  }
+
+
+  #author-img {
+    display: none;
+    /* margin-right: 8.5rem; */
+  }
+
+  .box {
+    margin-top: 3rem;
+  }
+
+
+}
+
+/*Targets iPad in portrait mode..from 768 to 1023*/
+@media only screen and (max-width: 1023px) {
+  h1 {
+    margin-left: 32px;
+  }
+
+  #mountain-box-heading {
+    margin-left: 32px;
+  }
+
+  #author-img img {
+    margin-right: -10px;
+    margin-top: 12px;
+  }
+
+}
+
+
+
+/*Targets big tablet and computers.. 1023 to 1200*/
+@media only screen and (max-width: 1200px) {
+  #mountain-text-box {
+    padding-left: 20px;
+    margin-left: -50px;
+  }
+
+  .box {
+    display: block;
+
+    width: 100%;
+  }
+
+  .reachout-btn {
+    width: 100%;
+    margin: 10px;
+  }
+
+
+
+  #submit {
+    width: 100%;
+    margin-left: -4px;
+  }
+}
